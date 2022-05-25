@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Raleway:wght@200;400&display=swap');
 
 :root{
-  --background:#363636;
-  --primary:#000000;
-  --secundary:#1C1C1C;
-  --terciary:#4F4F4F;
+  --background:#5A96E0;
+  --primary:#4A7DBA;
+  --secundary:#17273B;
+  --terciary:#31527A;
   --white:#FFFFFF;
   --container:1216px;
 }
