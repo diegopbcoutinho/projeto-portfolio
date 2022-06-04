@@ -196,7 +196,7 @@ li.tecnologia p{
 section#certificacoes div#conteudo-certificacoes{
   max-width:1350px;
   margin: 0 auto;
-  padding: 86px 0px;
+  padding: 86px 15px;
   background-color:var(--terciary);
   display:flex;
   justify-content:center;
