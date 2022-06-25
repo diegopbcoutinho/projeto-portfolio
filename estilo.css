@@ -70,7 +70,7 @@ nav ul a {
 
 ul#links a {
   font-weight: 700;
-  font-size: 12px;
+  font-size: 25px;
   color: var(--secundary);
   text-transform: uppercase;
   transition: 0.2s;
@@ -229,6 +229,10 @@ li.tecnologia p {
 
   color: var(--primary);
   margin-top: 8px;
+}
+
+section#certificacoes {
+  background-color: var(--terciary);
 }
 
 section#certificacoes div#conteudo-certificacoes {
@@ -390,4 +394,95 @@ li.tecnologia img#ingles {
   max-height: 50px;
   width: auto;
   height: auto;
+}
+
+
+@media (max-width: 1200px) {
+  section#habilidades div#conteudo-habilidades {
+    max-width: var(--container);
+    margin: 0 auto;
+    padding: 99px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  div#titulo {
+    margin-bottom: 110px;
+    text-align: center;
+  }
+
+  div#conteudo-habilidades h2 {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 48px;
+  }
+  
+  div#conteudo-habilidades h2 span {
+    font-size: 24px;
+    display: block;
+  }
+  
+  div#conteudo-habilidades ul {
+    width: 100%;
+    margin-left: 10px;
+  
+    display: flex;
+  }
+  
+  ul li.tecnologia {
+    background-color: var(--white);
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    width: 105px;
+    height: 120px;
+    border-radius: 8px;
+  
+    box-shadow: 0px 36px 28px -24px rgb(0, 0, 0, 0.2);
+  }
+  
+  li.tecnologia:not(:last-child) {
+    margin-right: 15px;
+  }
+  
+  li.tecnologia p {
+    font-family: Fredoka;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  
+    color: var(--primary);
+    margin-top: 8px;
+  }
+}
+
+@media (max-width: 600px), (min-width: 1200px) {
+  img#linkedin {
+    width: 40px;
+  }
+  img#github {
+    width: 40px;
+  }
+  img#whatsapp {
+    width: 40px;
+  }
+
+}
+
+@media (max-width: 1200px) {
+  ul#links a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  ul#links a {
+    font-size: 13px;
+  }
 }
