@@ -483,6 +483,19 @@ li.tecnologia img#ingles {
 
 @media (max-width: 650px) {
   ul#links a {
-    font-size: 13px;
+    font-size: 8px;
   }
+  img#linkedin {
+    width: 25px;
+  }
+  img#github {
+    width: 25px;
+  }
+  img#whatsapp {
+    width: 25px;
+  }
+  #redes {
+    margin-right:12px;
+  }
+
 }
